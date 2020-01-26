@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <title>simple</title>
+</head>
+
+<body background="stu.jpg">
+    <input>
+        <h1 style="color:blue"><u>Register Here</u></h1>
+        <form action="/" method="POST">
+            <table>
+                <tr>
+                    <td><u><b>Name:</u></b></td>
+                    <td><input type="text" placeholder="name" name="studentName"></td>
+                </tr>
+                <tr>
+                    <td><u><b>Address:</u></b></td>
+                    <td><input type="textarea" placeholder="textarea" name="studentAddress"></td>
+                </tr>
+                <tr>
+                    <td><u><b>Age:</u></b></td>
+                    <td><input type="number" placeholder="age" name="studentAge"></td>
+                </tr>
+                <tr>
+                    <td><u><b>Gender:</u></b></td>
+                    <td>
+                        <input type="radio" name="gender" value="m">Male</input>
+                        <input type="radio" name="gender" value="f">Female</input>
+                    </td>
+                </tr>
+                <tr>
+                    <td><u><b>E-mail:</u></b></td>
+                    <td><input type="email" placeholder="E-mail" name="studentEmail"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <u><b>Date of Birth:</b></u>
+                    </td>
+                    <td>
+                        <input type="date" max="1980" name="dob">
+                    </td>
+                </tr>
+                <tr>
+                    <td><u><b>Phone Number:</u></b></td>
+                    <td>
+                        <select name="phonecode">
+                            <option selected hidden value="">Select code</option>
+                            <option value="911">911</option>
+                            <option value="911">912</option>
+                            <option value="911">913</option>
+                            <option value="911">914</option>
+                            <option value="911">915</option>
+                        </select>
+                        <input type="phone" placeholder="number" name="phone">
+                    </td>
+                </tr>
+            </table>
+            <button type="submit">Submit</button>
+        </form>
+</body>
+
+</html>
